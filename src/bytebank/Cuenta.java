@@ -1,5 +1,8 @@
 package bytebank;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public abstract class Cuenta {
     protected double saldo;
     private int agencia = 1;
@@ -17,18 +20,20 @@ public abstract class Cuenta {
 
     public abstract void deposita(double valor);
 
-    public boolean saca(double valor) {
-        if(this.saldo >= valor) {
-            this.saldo -= valor;
-            return true;
-        } else {
-            return false;
-        }
+    public void saca(double valor) {
+        if(this.saldo < valor) {
+            try {
+                throw new SaldoInsuficienteException("No tienes saldo suficiente!");
+            } catch (SaldoInsuficienteException ex) {
+                System.out.println(ex.getMessage());
+            }
+        } 
+        this.saldo -= valor;
     }
 
     public boolean transfiere(double valor, Cuenta destino) {
         if(this.saldo >= valor) {
-            this.saldo -= valor;
+            saca(valor);
             destino.deposita(valor);
             return true;
         } else {
