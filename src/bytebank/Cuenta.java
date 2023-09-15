@@ -26,6 +26,8 @@ public abstract class Cuenta {
                 throw new SaldoInsuficienteException("No tienes saldo suficiente!");
             } catch (SaldoInsuficienteException ex) {
                 System.out.println(ex.getMessage());
+            }finally{//Se va a ejecutar si o si independientemente si hubo exito o error 
+                System.out.println("Ejectando Finally");
             }
         } 
         this.saldo -= valor;

@@ -5,7 +5,10 @@
         <group>
             <file>file:/C:/Users/togae/OneDrive/Documentos/NetBeansProjects/byteBank/src/bytebank/MiException.java</file>
             <file>file:/C:/Users/togae/OneDrive/Documentos/NetBeansProjects/byteBank/src/bytebank/SaldoInsuficienteException.java</file>
+            <file>file:/C:/Users/togae/OneDrive/Documentos/NetBeansProjects/byteBank/src/bytebank/CuentaAhorros.java</file>
+            <file>file:/C:/Users/togae/OneDrive/Documentos/NetBeansProjects/byteBank/src/bytebank/CuentaCorriente.java</file>
             <file>file:/C:/Users/togae/OneDrive/Documentos/NetBeansProjects/byteBank/src/bytebank/Cuenta.java</file>
+            <file>file:/C:/Users/togae/OneDrive/Documentos/NetBeansProjects/byteBank/test/TestExcpetionSaldo.java</file>
         </group>
     </open-files>
 </project-private>
