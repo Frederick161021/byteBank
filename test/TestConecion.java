@@ -1,4 +1,4 @@
-import bytebank.Conexion;
+import com.bytebank.modelo.Conexion;
 
 public class TestConecion {
 

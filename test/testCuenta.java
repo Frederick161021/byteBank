@@ -1,5 +1,5 @@
-import bytebank.CuentaAhorros;
-import bytebank.CuentaCorriente;
+import com.bytebank.modelo.CuentaAhorros;
+import com.bytebank.modelo.CuentaCorriente;
 
 public class testCuenta {
     public static void main(String[] args){

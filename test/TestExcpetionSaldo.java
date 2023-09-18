@@ -1,6 +1,6 @@
 
-import bytebank.Cuenta;
-import bytebank.CuentaAhorros;
+import com.bytebank.modelo.Cuenta;
+import com.bytebank.modelo.CuentaAhorros;
 
 
 public class TestExcpetionSaldo {

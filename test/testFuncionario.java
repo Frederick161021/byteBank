@@ -1,7 +1,7 @@
-import bytebank.Contador;
-import bytebank.Funcionario;
-import bytebank.Gerente;
-import bytebank.ControlBonificacion;
+import com.bytebank.modelo.Contador;
+import com.bytebank.modelo.Funcionario;
+import com.bytebank.modelo.Gerente;
+import com.bytebank.modelo.ControlBonificacion;
 
 public class testFuncionario {
 
